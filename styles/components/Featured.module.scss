@@ -1,0 +1,35 @@
+.featured {
+    width: 100%;
+    max-width: 80vw;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    z-index: 1;
+}
+
+.featuredItem {
+    position: relative;
+    color: white;
+    border-radius: 15px;
+    overflow: hidden;
+    max-height: 230px;
+}
+
+.featuredImg {
+    width: 100vw;
+    height: 100vh;
+}
+
+.featuredTitles {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+}
+
+.featuredTitles > h1 {
+   font-size: 34px;
+}
+
+.featuredTitles > h2 {
+    font-size: 20px;
+ }
